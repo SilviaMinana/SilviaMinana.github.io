@@ -104,6 +104,13 @@ nav a:hover,
   position: relative;
 }
 
+.hero-photo img {
+    width: 240px;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
 .hero::before {
   content: "";
   position: absolute;
