@@ -5,11 +5,11 @@
    ============================================================ */
 
 :root {
-  --paper: #f4eee3;
-  --paper-light: #faf7f0;
+  --paper: #f5d9c1;
+  --paper-light: #fcf3ed;
   --ink: #292825;
-  --muted: #6f6a60;
-  --line: #d8cfbf;
+  --muted: #6f6660;
+  --line: #d8cabf;
 
   /* Wes Anderson / R-inspired muted palette */
   --terracotta: #b75d45;
