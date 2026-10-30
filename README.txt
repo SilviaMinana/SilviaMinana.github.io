@@ -1,6 +1,6 @@
-# BB — Scientist Website
+# Silvia Minana Posada Website
 
-This is a simple GitHub Pages website for a scientist/researcher.
+This is a simple GitHub Pages website for about me as a researcher.
 
 ## The easiest way to edit it
 
@@ -36,13 +36,10 @@ Copy one publication block and change:
 
 ### Adding your CV PDF
 
-Put your PDF in the same folder as `index.html`, for example:
+Put your PDF in the same folder as `index.html`.
 
-    BB-CV.pdf
+Then find the "Download CV" button in `index.html` and change its link from `#` to the pdf file.
 
-Then find the "Download CV" button in `index.html` and change its link from `#` to:
-
-    BB-CV.pdf
 
 ### Changing social links
 
@@ -52,7 +49,7 @@ At the bottom of `index.html`, replace the `#` values after:
 - GitHub
 - LinkedIn
 
-with your real profile URLs.
+with profile URLs.
 
 ## Publishing with GitHub Pages
 
@@ -64,4 +61,4 @@ with your real profile URLs.
 6. Save.
 7. After GitHub finishes deploying, visit `https://YOURUSERNAME.github.io`.
 
-You can edit `index.html` directly on GitHub later. You do not need to install anything.
+You can edit `index.html` directly on GitHub later. 
