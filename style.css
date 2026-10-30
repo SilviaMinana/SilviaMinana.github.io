@@ -46,8 +46,8 @@ a {
 
 .corner-doodle {
   position: fixed;
-  top: 18px;
   right: 24px;
+  bottom: 20px;
   width: 110px;
   height: auto;
   opacity: 0.75;
@@ -449,7 +449,12 @@ footer {
    ============================================================ */
 
 @media (max-width: 720px) {
-  .site-header {
+  .corner-doodle {
+    width: 65px;
+    right: 12px;
+    bottom: 12px;
+  }
+   .site-header {
     padding: 18px 20px;
   }
 
