@@ -44,6 +44,17 @@ a {
   color: inherit;
 }
 
+.corner-doodle {
+  position: fixed;
+  top: 18px;
+  right: 24px;
+  width: 110px;
+  height: auto;
+  opacity: 0.75;
+  z-index: 20;
+  pointer-events: none;
+}
+
 .site-header {
   position: sticky;
   top: 0;
