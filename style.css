@@ -53,13 +53,16 @@ a {
   align-items: center;
   justify-content: space-between;
 
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 22px 34px;
+  width: 100%;
+  margin: 0;
+  padding: 22px max(34px, calc((100vw - var(--max-width)) / 2 + 34px));
 
-  background: rgba(247, 246, 242, 0.94);
+  background-image: url("images/websitedrawing.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   border-bottom: 1px solid var(--line);
-  backdrop-filter: blur(8px);
 }
 
 .logo {
@@ -121,28 +124,6 @@ nav a:hover,
   transform: scale(1.0);
 }
 
-.hero::before {
-  content: "";
-  position: absolute;
-  top: 95px;
-  right: 8%;
-  width: 150px;
-  height: 150px;
-  background: var(--ochre);
-  border-radius: 50%;
-  opacity: 0.72;
-}
-
-.hero::after {
-  content: "";
-  position: absolute;
-  right: 3%;
-  bottom: 100px;
-  width: 75px;
-  height: 75px;
-  border: 2px solid var(--terracotta);
-  transform: rotate(45deg);
-}
 
 .hero > * {
   position: relative;
@@ -470,12 +451,6 @@ footer {
     padding: 90px 20px 70px;
   }
 
-  .hero::before {
-    width: 90px;
-    height: 90px;
-    top: 60px;
-    right: 8%;
-  }
 
   .hero::after {
     display: none;
